@@ -1,0 +1,12 @@
+
+Week1：
+Welcome to the Deep Learning Specialization
+
+Week2：
+Logistic Regression as a Neural Network
+
+Week3:
+Shallow Neural Network
+
+Week4:
+Deep Neural Network
