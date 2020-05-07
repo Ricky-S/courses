@@ -1,7 +1,7 @@
 # Coursera Work
 
 + Deep learning  
-+ Machine  Learning  
++ Machine Learning  
 + TensorFlow in Practice  
 + IBM AI Engineering  
 
