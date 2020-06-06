@@ -4,6 +4,9 @@
 + Machine Learning  
 + TensorFlow in Practice  
 + IBM AI Engineering  
++ An-Introduction-to-Practical-Deep-Learning (intel)  
+
+
 
 
 
