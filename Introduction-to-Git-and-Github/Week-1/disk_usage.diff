@@ -1,0 +1,22 @@
+--- disk_usage.py	2020-06-08 16:01:17.864893100 +0800
++++ disk_usage_fixed.py	2020-06-08 16:05:54.010257400 +0800
+@@ -6,13 +6,14 @@
+     du = shutil.disk_usage(disk)
+     percent_free= 100*du.free/du.total
+     gigabytes_free = du.free/2**30
++    print('gigabytes', percent_free,gigabytes_free, min_percent,min_absolute)
+     if percent_free<min_percent or gigabytes_free < min_absolute:
+         return False
+     return True
+ 
+-if not check_disk_usage('/',2*2**30, 10):
++if not check_disk_usage('/',2, 10):
+     print('error not enough space')
+-    return 1
++    sys.exit(1)
+ 
+ print('everything ok')
+-return 0
+\ No newline at end of file
++sys.exit(0)
+\ No newline at end of file
