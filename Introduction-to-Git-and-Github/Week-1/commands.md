@@ -15,5 +15,12 @@ patch cpu_usage.py < change.diff
 check file  
 cat cpu_usage.py
 
+check config(user.name,user.email)       
+git config -l
+
+chmod +x name.py  
+
+show the contents of commit
+git log  
 
 
